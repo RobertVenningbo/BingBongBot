@@ -1,7 +1,9 @@
 # BingBongBot
 
-How to...
+Get started
 
-npm install discord.js dotenv
+1. `npm install`
 
-add ur discord TOKEN to the .env file... - check .env_sample for a sample
+2. Add ur discord `TOKEN` to the **.env** file _ref_ `.env_sample`
+
+3. HF?
