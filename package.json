@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/RobertVenningbo/BingBongBot#readme",
   "dependencies": {
+    "discord-player": "^5.4.0",
     "discord.js": "^14.7.1",
     "dotenv": "^16.0.3"
   },
