@@ -16,6 +16,6 @@ module.exports = {
 			interaction.reply({ content: "There was an error trying to prune messages in this channel!", ephemeral: true });
 		});
 
-		return interaction.reply({ content: `Successfully pruned \`${amount}\` messages.`, ephemeral: true });
+		return interaction.reply({ content: `\`${interaction.user.username}\` successfully pruned \`${amount}\` messages.`});
 	},
 };

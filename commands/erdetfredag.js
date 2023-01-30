@@ -3,8 +3,10 @@ const { SlashCommandBuilder } = require("discord.js");
 module.exports = {
     data: new SlashCommandBuilder()
         .setName("erdetfredag") 
-        .setDescription("Svarer måske på spørgsmålet?"),
+        .setDescription("Er det fredag i dag?"),
     async execute(interaction){
-        await interaction.reply("Måske? Hvad ved jeg...");
+        const d = new Date();
+        let day = d.getDay();
+        await interaction.reply(day == 5 ? "Ja, det er fredag!" : "Nej, det er ikke fredag!");
     },
 };
